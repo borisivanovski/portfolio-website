@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Boris Ivanovski-Portfolio</title>
+  <link rel="shortcut icon" type="favicon.ico" href="img/favicon-32x32.png"/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.production.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+  <header class="page-header">
+    <img src="img/logo.png" alt="img_logo.png" class="page-header__item">
+    <nav class="main-navigation page-header__item">
+      <ul role="menubar" class="navigation-list">
+        <li role="presentation">
+          <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+        </li>
+         <li role="presentation">
+        <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+        </li>
+         <li role="presentation">
+              <a href="work.html" role="menuitem" class="navigation-list__item ">Work</a>
+        </li>
+         <li role="presentation">
+        <a href="contact.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Contact</a>
+        </li>
+     </ul>
+  </nav>
+  </header>
+
+
+
+  <div class="contact">
+    <div>
+      <h1>Contact</h1>
+       Boris Ivanovski GmbH<br>
+       Plaußiger Str. 24<br>
+       04318 Leipzig<br>
+       Deutschland<br>
+       <br>
+       Tel:
+       <a href="tel:+491783350687">+491783350687 Telephone</a>
+       <br>
+       Skype hello.borisivanovski
+       <br>
+       <a href="mailto:ivanovski_bo@yahoo.co.uk">ivanovski_bo@yahoo.co.uk</a>
+       <br>
+
+       <a href="mailto:ivanovski_bo@yahoo.co.uk">Contact me</a>
+    </div>
+
+       <br>
+ <form action="" method="post" id="contact-form">
+     <label class="standard-label" for="contact-email">Email: </label>
+     <input type="email" id="contact-email" required>
+
+     <label class="standard-label" for="contact-Telephone">Telephone: </label>
+     <input type="tel" id="contact-Telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+
+     <label class="standard-label" for="contact-Message">Message: </label>
+     <label for="240">
+     <textarea required maxlength id="240"></textarea>
+     <input type="submit" id="contact-Message" value="Send message">
+  </form>
+</div>
+
+  <footer class="page-footer">
+  <p>Find me on</p>
+<div class="social-media">
+  <img src="img/github_icon.svg" alt="Github">
+  <img src="img/twitter_icon.svg" alt="Twitter">
+  <img src="img/linkedin_icon.svg" alt="LinkedIn">
+</div>
+</footer>
+
+  <script src="js/tota11y.min.js"></script>
+</body>
+
+</html>
