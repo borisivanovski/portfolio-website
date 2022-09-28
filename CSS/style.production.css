@@ -355,7 +355,7 @@ a {
   }
   
   
-  %button-shared {
+  button-shared {
     border: none;
     display: inline-block;
     font-family: inherit;
