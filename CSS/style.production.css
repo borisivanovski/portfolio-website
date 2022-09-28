@@ -252,10 +252,6 @@ a {
     }
   }
   
-  button,
-  .button {
-  }
-  
   .button, button {
     border: none;
     display: inline-block;
