@@ -354,6 +354,7 @@ a {
             animation: 34s cloud-move-reverse infinite alternate linear;
   }
   
+  
   %button-shared {
     border: none;
     display: inline-block;
