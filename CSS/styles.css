@@ -219,9 +219,6 @@ button:hover, button:focus {
   }
 }
 
-button,
-.button {
-}
 
 .button, button {
   border: none;
