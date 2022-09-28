@@ -144,7 +144,6 @@ button:hover, button:focus {
   text-align: right;
 }
 
-
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -218,7 +217,6 @@ button:hover, button:focus {
     font-size: 22px;
   }
 }
-
 
 .button, button {
   border: none;
